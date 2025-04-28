@@ -1,0 +1,32 @@
+<!--Input-->
+
+<label><!--Vai acoplar o input para melhorar a semantica-->
+    Rua:
+<input 
+    autocomplete="street-address"
+    disabled
+    readonly
+    value="Indisponivel"
+    placeholder="Digite sua rua">
+
+    <!--Auto completar informações-->  <!--Rua do endereço-->
+    <!--Disabled = desabilitar input-->
+    <!--Value = Valor, nome-->
+    <!--readonly = Só visualização,sem digitar-->
+    <!--placeholder = Ao começar a escrever, seu placeolder (txt da caixinha) some-->
+</label>
+
+-----------------------------------------------------------------<br>
+<!--Pode fazer desta forma de estrutura tambem-->
+<label for="rua">Rua:</label>
+<input id="rua">
+   
+<label for="numero">Numero: </label>
+<input id="numero">
+
+<label for="complemento">Complemento: </label>
+<input id="complemento" autofocus>
+
+<!--for = Para quem?-->
+<!--Id = De onde vou pegar-->
+<!--autofocus = focar em qual primeiro pra escrever automaticamente? É importante focar em somente um-->
